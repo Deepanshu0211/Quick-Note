@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+  resize: none;
+  padding: 10px;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+#saveButton {
+  background-color: #435161;
+  color: #fff;
+}
+
+#clearButton {
+  background-color: #554244;
+  color: #fff;
+}
+
+#noteList {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.noteItem {
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  color: #444;
+}
+
+img {
+  width: auto;
+  height: 100px;
+}
